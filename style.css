@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin:0px;
+  padding:0px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2vmin;
+}
+
+#navigationBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  top:0;
+  position: fixed;
+  width: 100%;
+  height: 15vh;
+  background-color: #0003b5;
+}
+
+#navigationBar a{
+  color:#fff;
+  font-size: 4vmin;
+  text-decoration: underline;
+  padding: 2vmin;
+}
+
+#bottomBar{
+  width: 100%;
+  height: 7.5vh;
+  background-color: #0003b5;
+  bottom:0;
+  position:fixed;
+}
+
+#heroBanner{
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Prionace_glauca_1.jpg/1200px-Prionace_glauca_1.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  padding-left: 5vmin;
+  padding-top:20vmin;
+}
+
+#mainTitleText {
+  padding-bottom: 2vmin;
+  font-size: 20vmin;
+}
+
+#moreText {
+  padding-bottom: 5vh;
+  font-size: 5vmin;
+}
+
+#paragraphText{
+  display:flex;
+  flex-direction: column;
+  font-size: 4vmin;
+  margin-left: 5vmin;
+  margin-right: 5vmin;
+  padding-bottom: 15vmin;
+}
+
+#moreparagraphText{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 4vmin;
+  margin-left: 5vmin;
+  margin-right: 5vmin;
+  padding-bottom: 15vmin;
+}
+
+.contentSectionContainer {
+  padding-top: 5vmin;
+  margin-left: 5vmin;
+  margin-right: 5vmin;
+}
+
+.sectionHeader {
+  font-size: 15vmin;
+  color: #257bcc
+}
+
+.thumbnailContainer1, .thumbnailContainer3{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.thumbnailContainer2{
+  display: flex;
+  justify-content: center;
+}
+
+.thumbnailImage1 {
+  width:50vw;
+  height:50vh;
+  object-fit: cover;
+}
+
+.thumbnailImage3 {
+  width:30vw;
+  height:40vh;
+  object-fit: cover;
+}
